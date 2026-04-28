@@ -42,8 +42,7 @@
                 <td>
                     <a href="edit.php?id=<?=$user['id']?>"> EDIT </a> |
                     <a href="Details.php"> Details </a> |
-                    <a href="delete.php"> Delete </a> 
-                </td>
+<a href="../controller/deleteCheck.php?id=<?=$user['id']?>"> Delete </a>                </td>
             </tr>
     <?php }?>
            
