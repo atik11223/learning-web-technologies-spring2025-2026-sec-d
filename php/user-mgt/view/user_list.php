@@ -1,3 +1,4 @@
+
 <?php
     session_start();
     // Only initialize the list if it doesn't exist in the session yet
